@@ -1,0 +1,226 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+    color: #ffffff;
+    background-color: #ffb6b9;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+h2 {
+    color: #83580b;
+    font-family: 'Times New Roman';
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+h3 {
+    color: #83580b;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.p1 {
+    color: #83580b;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+    padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Verdana';
+    font-size: 1.2rem;
+    color: #83580b;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.2rem;
+    color: #83580b;
+}
+
+/* Download Button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-image {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+    position: absolute;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 100%;
+    }
+}
+
+/* Features Section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #ffb6b9;
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+    background-color: #ffb6b9;
+}
+
+.icon {
+    color: #ef12d5;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #8fdbf2;
+}
+
+.social-icon {
+    color: #83580b; 
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s;
+  }
+  
+  
+  .social-icon:hover {
+    color: #83580b;
+  }
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ffb6b9;
+}
+
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.custom-icon {
+    font-size: 48px;
+    color: #83580b; 
+    margin-top: 20px;
+  }
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#press {
+    background-color: #ffb6b9;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+#press img {
+    width: 30%;
+    height: auto;
+    margin: 10px;
+    
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+    background-color: #ffffff;
+    
+}
+
+.pricing-header {
+    color: #83580b;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+    
+}
+
+
+
+/* Call To Action Section CTA */
+
+#cta {
+    background-color: #ffb6b9;
+    color: #ffffff;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading {
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Media Query Section */
+
+#title {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        text-align: center;
+        position: static;
+        transform: rotate;
+    }
+}
+
+/* Footer */
+#footer {
+    padding: 7% 15%;
+    text-align: center;
+   
+}
